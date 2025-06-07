@@ -12,7 +12,7 @@ function App() {
   const [location, setLocation] = useState("dholakpur");
   const [data, setData] = useState({});
   const [weatherIcon, setIcon] = useState(sunnyIcon);
-  const API_KEY = 'c66c361137a7353d4c163a70e0af9f4e';
+  const API_KEY = '';
 
   const handleSearch = async () => {
     const BASE_URL = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${API_KEY}`;
